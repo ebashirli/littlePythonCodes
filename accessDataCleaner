@@ -7,9 +7,9 @@ import shutil
 
 path0 = 'E:\\' #Path to USB
 
-folders0 = ld(path0) 
-for i in range(len(folders0)):
-    shutil.move(path0 + folders0[i], r'D:\Dosyalar\KANTAR BILGILERI\SANTIYE KANTARI')
+# folders0 = ld(path0) 
+# for i in range(len(folders0)):
+#     shutil.move(path0 + folders0[i], r'D:\Dosyalar\KANTAR BILGILERI\SANTIYE KANTARI')
 
 trMonths = ['OCA', 'SUB', 'MAR', 'NIS', 'MAY', 'HAZ', 'TEM', 'AUG', 'EYL', 'EKI', 'KAS', 'ARA']
 
